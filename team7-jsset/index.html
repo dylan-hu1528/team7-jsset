@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <script type="text/javascript" src="verifySet.js" async></script>
+        <script type="text/javascript" src="card.js" async></script>
+        <script type="text/javascript" src="deck.js" async></script>
+        <script type="text/javascript" src="site.js" async></script>
+        <link rel="stylesheet" type="text/css" href="site.css" media="screen"/>
+        <title>The Game of Set</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        
+        <div class ="header">
+            <! -- Header -->
+            <h1>The Game of Set</h1>
+        </div>
+        <! -- Picture Display (for site.js)-->
+        <div id="pictures" class="flex-container">
+        </div>
+        <! -- Card, Point, Button Interface-->
+        <div id = "cards">
+            <! -- Card Entry and Total Points -->
+            <p id="points">Point Total: 0</p>
+            <textarea id = "card1"></textarea>
+            <textarea id = "card2"></textarea>
+            <textarea id = "card3"></textarea>
+            <! -- Buttons for user to interact with-->
+            <div id="buttons">
+                <button onclick="submitSet()">Submit</button>
+                <button onclick="rules()">Rules</button>
+                <button onclick="restartGame()">Restart</button>
+                <button onclick="dealThree()">Deal</button>
+                <button onclick="giveHint()">Hint</button>
+            </div>
+        </div>
+        </div>
+        <! -- Time Elapsed Counter -->
+        <div id = "Time"></div>
+        <p id="ET">Time: 0.000 seconds</p>
+    </div>
+        <div id = "Enter"></div>
+            <! -- Feedback From the Game-->
+            <p id="setValue">Enter 3 card numbers from the pictures above!</p>
+        </div>
+        <p id ="footer">Team 7</p>
+    </body>
+</html>
+    

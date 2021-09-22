@@ -1,0 +1,118 @@
+/*Main body styling of the page*/
+body {
+  background-color: #536976;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  text-align: center;
+}
+
+/*Html tag hieght 100% so*/
+html {
+  height: 100%;
+}
+
+/*Make a tags black in color*/
+a {
+  color: rgba(#000, 0.7);
+}
+
+/*Button Styling*/
+button {
+  background-color: #555555;
+  text-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: black;
+
+}
+
+/*Time paragraph style*/
+p#ET{
+  margin-top: 30px;
+}
+
+/*Header*/
+.header {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+/*Text area to enter card number styling*/
+textarea{
+	width: 50px;
+	height: 30px;
+	border: 3px solid #cccccc;
+  padding: 5px;
+  margin-top: 20px;
+  margin-top: 10px;
+	font-family: Tahoma, sans-serif;
+	background-position: bottom right;
+  background-repeat: no-repeat;
+  resize: none;
+}
+
+/*Overall paragraph tag styling*/
+p{
+  color: black;
+  padding: 1px;
+  margin: 1px;
+}
+
+/*Top level div for card pictures*/
+div#pictures {
+  width: 850px;
+  padding: 2px;
+  margin: auto;
+  margin-bottom:5px;
+  text-align: center;
+}
+
+/*Div styling per card in pictures div*/
+div#pictures div {
+  margin: 1px;
+  padding: 1px;
+}
+
+/*Flex box styling*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+}
+
+/*Images padded by 5 pixels*/
+img{
+  padding:5px
+}
+
+/*Footer*/
+p#footer{
+  color: #505050;
+  text-align:right;
+  font-size: 15px;
+}
+
+/*Message paragrah tag i.e. game messages like found set or where hint is printed*/
+p#setValue{
+  color: black;
+  font-size: 20px;
+  margin-top:20px;
+}
